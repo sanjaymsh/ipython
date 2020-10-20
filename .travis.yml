@@ -100,6 +100,23 @@ matrix:
     - arch: amd64
       python: "3.8"
       env: MASTER_DEPENDENCIES=True
+    - arch: ppc64le
+      python: "3.6"
+      dist: xenial
+    - arch: ppc64le
+      python: "3.7"
+      dist: xenial
+    - arch: ppc64le
+      python: "3.8"
+      dist: xenial
+    - arch: ppc64le
+      python: "nightly"
+      dist: xenial
+    - arch: ppc64le
+      python: "3.9-dev"
+    - arch: ppc64le
+      python: "3.8"
+      env: MASTER_DEPENDENCIES=True
   allow_failures:
     - python: nightly
 
